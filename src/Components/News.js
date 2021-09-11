@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import NewsItems from "./NewsItems";
 
 export class News extends Component {
@@ -59,7 +59,7 @@ export class News extends Component {
         <div className="row">
         {this.state.articles.map((element)=>{
           return <div className="col md-4">
-          <NewsItems title="mytitle" description="mydesc" imageUrl="https://upload.wikimedia.org/wikipedia/commons/8/8b/Katrina_Kaif_promoting_Bharat_in_2019.jpg" newsUrl='todo' />
+          <NewsItems key={element.url} title={element.title.slice(0,45)} description={element.description.slice(0,88)} imageUrl={element.urlToImage} newsUrl={element.url} />
         </div>
         })}
           

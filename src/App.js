@@ -7,6 +7,7 @@ import News from "./Components/News";
 export default class App extends Component {
   //  state={ c : 'NewsMonkey'}
   render() {
+    console.log("Deepak");
     return (
       <div>
         <Navbar />

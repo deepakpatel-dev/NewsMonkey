@@ -17,6 +17,7 @@ console.log(str);
 export default class App extends Component {
   //  state={ c : 'NewsMonkey'}
   render() {
+    console.log("Deepak");
     return (
       <div>
         <Router>

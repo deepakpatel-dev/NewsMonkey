@@ -9,6 +9,11 @@ import {
   Route,
 } from "react-router-dom";
 
+var today = new Date();
+var str = today.toGMTString();  // deprecated! use toUTCString()
+
+console.log(str);
+
 export default class App extends Component {
   //  state={ c : 'NewsMonkey'}
   render() {
@@ -28,6 +33,7 @@ export default class App extends Component {
         <Switch>
         </Switch>
         </Router>
+        <h5>{str}</h5>
       </div>
     );
   }

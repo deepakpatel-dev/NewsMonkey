@@ -16,7 +16,6 @@ console.log(str);
 
 export default class App extends Component {
   pageSize = 9;
-  //  state={ c : 'NewsMonkey'}
   render() {
     return (
       <div>

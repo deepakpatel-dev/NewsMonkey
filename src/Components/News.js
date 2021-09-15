@@ -93,7 +93,7 @@ export class News extends Component {
       <div className="container my-3">
         <h1
           className="text-center"
-          style={{ margin: "35px 0px", color: "blue" }}
+          style={{ margin: " 90px 0px 35px", color: "blue" }}
         >
           News Monkey - Top {this.capitalizeFirstLetter(this.props.category)}{" "}
           Headlines

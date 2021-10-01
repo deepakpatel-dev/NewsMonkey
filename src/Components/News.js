@@ -55,9 +55,9 @@ useEffect(() => {
 
     return (
       <div className="container my-3">
-        <h1
-          className="text-center"
-          style={{ margin: " 90px 0px 35px", color: "blue" }}
+        <h1 
+          className={`text-center text-${props.mode==='light'?'dark':'light'}`}
+          style={{ margin: " 90px 0px 35px"}}
         >
           News Monkey - Top {capitalizeFirstLetter(props.category)}{" "}
           Headlines
@@ -69,7 +69,7 @@ useEffect(() => {
           hasMore={articles.length !== totalResults}
           loader={<Spinner/>}
         >
-          <div className="container my-3"> 
+          <div className="container my-3" > 
            <div className="row">
             {articles.map((element) => {
               return (

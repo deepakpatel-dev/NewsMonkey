@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/deepakpatel-dev/NewsMonkey/static/css/main.a4a20492.chunk.css",
+    "main.js": "/deepakpatel-dev/NewsMonkey/static/js/main.c9fd6ae1.chunk.js",
+    "main.js.map": "/deepakpatel-dev/NewsMonkey/static/js/main.c9fd6ae1.chunk.js.map",
+    "runtime-main.js": "/deepakpatel-dev/NewsMonkey/static/js/runtime-main.37ef6274.js",
+    "runtime-main.js.map": "/deepakpatel-dev/NewsMonkey/static/js/runtime-main.37ef6274.js.map",
+    "static/js/2.1eeee1af.chunk.js": "/deepakpatel-dev/NewsMonkey/static/js/2.1eeee1af.chunk.js",
+    "static/js/2.1eeee1af.chunk.js.map": "/deepakpatel-dev/NewsMonkey/static/js/2.1eeee1af.chunk.js.map",
+    "static/js/3.1686862b.chunk.js": "/deepakpatel-dev/NewsMonkey/static/js/3.1686862b.chunk.js",
+    "static/js/3.1686862b.chunk.js.map": "/deepakpatel-dev/NewsMonkey/static/js/3.1686862b.chunk.js.map",
+    "index.html": "/deepakpatel-dev/NewsMonkey/index.html",
+    "static/css/main.a4a20492.chunk.css.map": "/deepakpatel-dev/NewsMonkey/static/css/main.a4a20492.chunk.css.map",
+    "static/js/2.1eeee1af.chunk.js.LICENSE.txt": "/deepakpatel-dev/NewsMonkey/static/js/2.1eeee1af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37ef6274.js",
+    "static/js/2.1eeee1af.chunk.js",
+    "static/css/main.a4a20492.chunk.css",
+    "static/js/main.c9fd6ae1.chunk.js"
+  ]
+}
